@@ -5,4 +5,5 @@ set(CMAKE_CXX_COMPILER)
 set(CMAKE_CXX_FLAGS "-Wall")
 
 include_directories(include)
-add_executable(${PROJECT_NAME} main.cpp)
+
+add_executable(${PROJECT_NAME} src/main.cpp)
